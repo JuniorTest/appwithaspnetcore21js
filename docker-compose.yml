@@ -12,7 +12,7 @@ services:
   spystore.service:
     image: ${DOCKER_REGISTRY-}spystoreservice
     ports:
-     - "55882:80"
+     - "55555:80"
      - "23741:80"
     build:
       context: .
