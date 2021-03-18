@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpyStore.Dal", "SpyStore.Dal\SpyStore.Dal.csproj", "{FA88882E-6482-4D33-A292-40EAA6A6D79C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpyStore.Dal", "SpyStore.Dal\SpyStore.Dal.csproj", "{FA88882E-6482-4D33-A292-40EAA6A6D79C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpyStore.Dal.Tests", "SpyStore.Dal.Tests\SpyStore.Dal.Tests.csproj", "{350CA7F9-6F5F-403B-B687-2249AE6D8E4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpyStore.Dal.Tests", "SpyStore.Dal.Tests\SpyStore.Dal.Tests.csproj", "{350CA7F9-6F5F-403B-B687-2249AE6D8E4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpyStore.Service", "SpyStore.Service\SpyStore.Service.csproj", "{EDF2EF7D-6769-4D65-A814-D883E54FA5EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpyStore.Service", "SpyStore.Service\SpyStore.Service.csproj", "{EDF2EF7D-6769-4D65-A814-D883E54FA5EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpyStore.Mvc", "SpyStore.Mvc\SpyStore.Mvc.csproj", "{916E0C29-9346-495C-85B5-8E3B953BB0AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpyStore.Mvc", "SpyStore.Mvc\SpyStore.Mvc.csproj", "{916E0C29-9346-495C-85B5-8E3B953BB0AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpyStore.Models", "SpyStore.Models\SpyStore.Models.csproj", "{7FD5FEDB-1CEF-41E3-A3A7-A4EE8D9BEC26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpyStore.Models", "SpyStore.Models\SpyStore.Models.csproj", "{7FD5FEDB-1CEF-41E3-A3A7-A4EE8D9BEC26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpyStore.Mvc.Tests", "SpyStore.Mvc.Tests\SpyStore.Mvc.Tests.csproj", "{B3A8CDBA-E0AE-4FD2-9645-678E136E7070}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpyStore.Mvc.Tests", "SpyStore.Mvc.Tests\SpyStore.Mvc.Tests.csproj", "{B3A8CDBA-E0AE-4FD2-9645-678E136E7070}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpyStore.Service.Tests", "SpyStore.Service.Tests\SpyStore.Service.Tests.csproj", "{7567B224-3023-45E3-91CE-88B54A077807}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpyStore.Service.Tests", "SpyStore.Service.Tests\SpyStore.Service.Tests.csproj", "{7567B224-3023-45E3-91CE-88B54A077807}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FE6602D8-C424-4670-926B-EF31564888C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{7567B224-3023-45E3-91CE-88B54A077807}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7567B224-3023-45E3-91CE-88B54A077807}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7567B224-3023-45E3-91CE-88B54A077807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE6602D8-C424-4670-926B-EF31564888C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6602D8-C424-4670-926B-EF31564888C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6602D8-C424-4670-926B-EF31564888C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6602D8-C424-4670-926B-EF31564888C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
