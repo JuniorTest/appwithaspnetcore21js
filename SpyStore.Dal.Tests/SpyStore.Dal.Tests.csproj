@@ -25,4 +25,8 @@
     <ProjectReference Include="..\SpyStore.Models\SpyStore.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="CrudTests\" />
+  </ItemGroup>
+
 </Project>
